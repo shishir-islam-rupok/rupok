@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio.rupok</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    </head>
+    
+    <body>
+        <header id="hedaer">
+            <!-- Logo -->
+            <div class="logo">Protfolio</div>
+    
+            <!-- Navigation Links -->
+            <nav>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="nav-links">
+                    <a href="/">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#Protfolio">protfloio</a>
+                    <a href="/about">About</a>
+                    <a href="/contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <div class="can">
+            <canvas id="canvas" class="fireworks">
+            </canvas>
+            </div>
+            <div class="my-salf-con">
+             <div class="image-con">
+               <div class="imge">
+                <img src="/assetcs/p.jpg" alt="shishir">
+               </div>
+             </div>
+            <div id="Text-con">
+           <!-- Text Section -->
+            
+                 <h1 style="color: #57b9aa; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" id="title">Welcome to my Portfolio</h1>
+                 <h2 style="color: #fff;">I’m a <span style="color: aqua;" id="typed"></span></h2>
+                 <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Hey there! I’m Rupok, a front-end web developer with over two years of experience. I love transforming design concepts
+                into responsive and visually appealing websites. I’m proficient in HTML, CSS, JavaScript, Tailwind CSS, jQuery, and
+                React, which allows me to craft smooth and enjoyable user experiences.I'm passionate about what I do and always aim to provide great value to my clients.</p>
+                <div class="icons">
+                 <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://github.com/shishir122-code" target="_blank"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.fiverr.com/users/rupok_shishir/manage_gigs?current_filter=active&days_for_stats=30" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+                 </div>
+            </div>
+           
+        
+        <script>
+           
+        </script>
+        <div id="skills" style=" transition: 1s;" class="mine-card-container">
+            <h2 style="color: #fff; text-align: center; "> My skills</h2>
+<div class="cards-container">
+
+    <!-- Card 1 -->
+    <div class="card">
+        <div class="card-icon">🌐</div>
+        <div class="card-title">Responsive Web Design</div>
+        <div class="card-description">Creating mobile-friendly, responsive websites that look great on all devices.
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <div class="card-icon">🎨</div>
+        <div class="card-title">UI/UX Design</div>
+        <div class="card-description">Designing user-friendly interfaces and ensuring a seamless user experience.</div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <div class="card-icon">💻</div>
+        <div class="card-title">Front-End Development</div>
+        <div class="card-description">Writing clean, efficient code using HTML, CSS, and JavaScript to build stunning
+            web pages.</div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+        <div class="card-icon">⚙️</div>
+        <div class="card-title">JavaScript Development</div>
+        <div class="card-description">Bringing websites to life with interactive JavaScript features and
+            functionalities.</div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card">
+        <div class="card-icon">⚛️</div>
+        <div class="card-title">React Development</div>
+        <div class="card-description">Building fast, scalable single-page applications (SPAs) using React.js.</div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card">
+        <div class="card-icon">🚀</div>
+        <div class="card-title">Performance Optimization</div>
+        <div class="card-description">Optimizing websites to ensure fast load times and a smooth user experience.</div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="card">
+        <div class="card-icon">🌐</div>
+        <div class="card-title">Cross-Browser Compatibility</div>
+        <div class="card-description">Ensuring websites work consistently across all major browsers and devices.</div>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="card">
+        <div class="card-icon">🔗</div>
+        <div class="card-title">API Integration</div>
+        <div class="card-description">Integrating third-party APIs to add dynamic functionality to your website.</div>
+    </div>
+</div>
+        </div>
+          
+<!-- Portfolio scction -->
+    <div id="Protfolio" class="mine-portfolio-section">
+        <h2 style="color: #fff; text-align: center;">My Protfolio</h2>
+<div class="portfolio-section">
+    <!-- Portfolio Item 1 -->
+    <div class="portfolio-item">
+        <img src="/assetcs/pr1.png" alt="Project 1">
+        <div class="overlay">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <a href="https://shorturl.at/iIPdf
+" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <!-- Portfolio Item 2 -->
+    <div class="portfolio-item">
+        <img src="/assetcs/pr2.jpg" alt="Project 2">
+        <div class="overlay">
+            <h3>Project 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <!-- Portfolio Item 3 -->
+    <div class="portfolio-item">
+        <img src="/assetcs/pr3.png" alt="Project 3">
+        <div class="overlay">
+            <h3>Project 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <!-- Portfolio Item 4 -->
+    <div class="portfolio-item">
+        <img src="/assetcs/pr4.png" alt="Project 4">
+        <div class="overlay">
+            <h3>Organic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="https://shorturl.at/b1Z9G" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <!-- Portfolio Item 5 -->
+    <div class="portfolio-item">
+        <img src="/assetcs/pr5.png" alt="Project 5">
+        <div class="overlay">
+            <h3>FOODMART</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <a href="https://shorturl.at/zEhsS" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <!-- Portfolio Item 6 -->
+    <div style="padding: 1rem; background-color: aquamarine;" class="portfolio-item">
+        <img src="/assetcs/pr6.jpg" alt="Project 6">
+        <div class="overlay">
+            <h3>Project 6</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <!-- Swiper -->
+     <div class="mine-slider">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+     </div>
+
+<section class="about-me-container">
+    <!-- About Me Text Section -->
+    <div class="about-me-text">
+        <h1>About Me</h1>
+        <p>
+            Hi, I'm rupok! I'm a passionate web developer with a love for creating beautiful and functional
+            websites.
+            I enjoy exploring the latest web technologies and continually improving my skills in front-end and back-end
+            development.
+            In my spare time, I enjoy reading tech blogs, hiking, and experimenting with new programming languages.
+        </p>
+    </div>
+
+    <!-- About Me Image Section -->
+    <div class="about-me-image">
+        <img src="/assetcs/p.jpg" alt="Your Name">
+    </div>
+</section>
+
+    
+<div class="ather">
+    <!--Chat container-->
+<h2>Ai Chatbot</h2>
+<div class="mine-container ">
+    
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box"></div>
+        <input type="text" id="user-input" class="user-input" placeholder="Type your message here..." />
+        <button id="send-btn" class="send-btn">Send</button>
+    </div>
+</div>
+</div>
+   
+    <footer style="background-color: #111827; padding: 40px 20px; color: white; font-family: 'Arial', sans-serif;">
+    
+        <!-- Footer Container -->
+        <div style="width:93%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+    
+            <!-- Company Info --> 
+            <div style="flex-basis: 30%; margin-bottom: 20px; padding:0 1rem;">
+                <h3 style="color: #00D1B2; font-size: 24px;">Future iStake</h3>
+                <p style="font-size: 14px; line-height: 1.5;">
+                    Future iStake is a forward-thinking platform providing staking solutions for the decentralized world.
+                    Our mission is to empower users with seamless and secure blockchain experiences.
+                </p>
+            </div>
+    
+            <!-- Quick Links -->
+            <div style="flex-basis: 20%; margin-bottom: 20px;">
+                <h4 style="color: #00D1B2; font-size: 18px; margin-bottom: 10px;">Quick Links</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 10px;"><a href="/" style="color: white; text-decoration: none;">Home</a></li>
+                    <li style="margin-bottom: 10px;"><a href="/features"
+                            style="color: white; text-decoration: none;">Features</a></li>
+                    <li style="margin-bottom: 10px;"><a href="/staking"
+                            style="color: white; text-decoration: none;">Staking</a></li>
+                    <li style="margin-bottom: 10px;"><a href="/about" style="color: white; text-decoration: none;">About</a>
+                    </li>
+                    <li style="margin-bottom: 10px;"><a href="/contact"
+                            style="color: white; text-decoration: none;">Contact</a></li>
+                </ul>
+            </div>
+    
+            <!-- Social Media & Contact -->
+            <div style="flex-basis: 20%; margin-bottom: 20px;">
+                <h4 style="color: #00D1B2; font-size: 18px; margin-bottom: 10px;">Follow Us</h4>
+                <div style="display: flex; gap: 10px;">
+                    <!-- Social Media Icons -->
+                    <a href="https://twitter.com" style="color: white; font-size: 20px; text-decoration: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            width="24" height="24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 19s-4-2-4-9 4-7 8-7 8 2 8 7-4 9-8 9z" />
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com" style="color: white; font-size: 20px; text-decoration: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            width="24" height="24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 14v6h3v-6a3 3 0 00-6 0v6h3v-6m-7 0v6h3v-6H7zM3 3h4v4H3V3z" />
+                        </svg>
+                    </a>
+                    <a href="https://discord.com" style="color: white; font-size: 20px; text-decoration: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            width="24" height="24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8.12 10.88a3 3 0 11-4.24-4.24 3 3 0 014.24 4.24zM16.88 10.88a3 3 0 11-4.24-4.24 3 3 0 014.24 4.24zM12 14v7m0-7c-2.12-2.12-7-4-7-4s5-1.88 7-4c2.12 2.12 7 4 7 4s-4.88 1.88-7 4z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Newsletter Subscription -->
+            <div style="flex-basis: 30%; margin-bottom: 20px;">
+                <h4 style="color: #00D1B2; font-size: 18px; margin-bottom: 10px;">Subscribe to Our Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Your email"
+                        style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 10px;">
+                    <button type="submit"
+                        style="background-color: #00D1B2; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Subscribe</button>
+                </form>
+            </div>
+    
+        </div>
+    
+        <!-- Bottom Footer -->
+        <div style="text-align: center; border-top: 1px solid #2D3748; padding: 20px; font-size: 14px; color: #A0AEC0;">
+            &copy; 2024 Rupok </> All Rights Reserved.
+        </div>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script>
+    gsap.from(".card", {
+            opacity: 0,
+            y: 150,
+            duration: 1,
+            stagger: 0.2,
+            scrollTrigger: {
+                trigger: "body",
+                start: "top 10%",
+                end: "bottom -10%",
+                toggleActions: "play none none reverse",
+                scrub: 1,
+                markers: false,
+                once: false
+            }
+        });
+
+        gsap.from(".portfolio-section", {
+            opacity: 0,
+        
+            y: 350,
+           
+            duration: 1.5,
+            stagger: 0.3,
+            scrollTrigger: {
+                trigger: ".mine-portfolio-section",
+                start: "top 70%",
+                end: "bottom 100%",
+                toggleActions: "play none none reverse",
+                scrub: 1,
+                markers: false,
+                once: false
+            }
+        });
+         gsap.from(".chat-container", {
+                opacity: 1,
+                y: -100,
+                x: -450,
+                duration: 5.5,
+                stagger: 0.3,
+                scrollTrigger: {
+                    trigger: ".mine-container",
+                    start: "top 89%",
+                    end: "bottom 100%",
+                    toggleActions: "play none none reverse",
+                    scrub: 1,
+                    markers: false,
+                    once: false
+                }
+            });
+
+             gsap.from(".imge", {
+                    opacity: 1,
+                    y: 150,
+                    duration: 1,
+                    stagger: 0.3,  
+                      
+                    }
+                );
+                 gsap.from(".mine-slider", {
+                        opacity: 1,
+                        y: -100,
+                        duration: 3.5,
+                        stagger: 0.3,
+                        scrollTrigger: {
+                        trigger: ".mine-slider",
+                        start: "top 89%",
+                        end: "bottom 90%",
+                        toggleActions: "play none none reverse",
+                        scrub: 1,
+                        markers: false,
+                        once: false
+                        }
+                    });
+                          gsap.from("#Text-con", {
+                                opacity: 1,
+                                y: -150,
+                                duration: 1,
+                                stagger: 0.3,
+                                 trigger: ".my-salf-con",
+                              start: "top 10%",
+                              end: "bottom 90%",
+                              toggleActions: "play none none reverse",
+                              scrub: 1,
+                              markers:true,
+                              once: false
+                               
+                                
+                            });
+            
+          
+
+    </script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed("#typed", {
+        strings: ["Developer", "Designer", "Programmer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+
+    })
+     const light = document.getElementById('light');
+        const object = document.getElementById('object');
+        const maxLightDistance = 500;
+
+        // Function to move the light source based on the mouse position
+        document.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+
+            gsap.to(light, {
+                x: mouseX - 100,  // Offset the light source to center on cursor
+                y: mouseY - 100,
+                duration: 0.2,
+            });
+
+            // Calculate the distance between the light and the object
+            const objectRect = object.getBoundingClientRect();
+            const objectX = objectRect.left + objectRect.width / 2;
+            const objectY = objectRect.top + objectRect.height / 2;
+            const distance = Math.hypot(mouseX - objectX, mouseY - objectY);
+
+            // Normalize the distance and calculate the light intensity
+            const lightIntensity = Math.max(0, 1 - distance / maxLightDistance);
+
+            // Apply the intensity effect to the object (scaling and shadow)
+            object.style.boxShadow = `0px 0px ${30 * lightIntensity}px ${20 * lightIntensity}px rgba(255,255,255,${lightIntensity})`;
+            object.style.transform = `translate(-50%, -50%) scale(${1 + 0.3 * lightIntensity})`;
+        });
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+    });
+</script>
+<script src="/js/canvas.js"></script>
+<script src="/js/script.js"></script>
+</html>
